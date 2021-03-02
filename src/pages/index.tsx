@@ -1,7 +1,11 @@
-import Head from 'next/head'
+import React from 'react'
+import ExperienceBar from "../components/ExperienceBar";
 
 export default function Home() {
     return (
-        <h1>Hello World</h1>
+        <div className='container'>
+            <ExperienceBar />
+            <h1>Hello World</h1>
+        </div>
     )
 }
